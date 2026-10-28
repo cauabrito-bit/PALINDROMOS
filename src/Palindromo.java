@@ -7,7 +7,7 @@ public class Palindromo { // criacao oadrao da classe palindromo
 	public Palindromo(int x) { // constructor
 		this.x = x;
 	}
-	public boolean BOLONHESA() { // metodo de verificaco
+	public boolean ehPalindromo() { // metodo de verificaco
 			if(this.x < 0) { // numero negativos n podem ser palindromos
 				return false;
 				}

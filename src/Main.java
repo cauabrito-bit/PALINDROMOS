@@ -14,7 +14,7 @@ public class Main {
 		
 		for(Integer num : listNum) {
 			Palindromo i = new Palindromo (num);
-			boolean resultado = i.BOLONHESA();
+			boolean resultado = i.ehPalindromo();
 			
 			if (resultado == true) {
 				palili.add(num);
